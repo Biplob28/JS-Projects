@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.body {
+  height: 200vh;
+}
+
+.Back-colorchangingpart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  flex-direction: column;
+  padding: 15px;
+}
+p {
+  color: black;
+  padding: 10px;
+  font-size: medium;
+}
+.button-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  padding: 7px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border-color: brown;
+  cursor: pointer;
+}
+button:hover {
+  padding: 8px;
+}
