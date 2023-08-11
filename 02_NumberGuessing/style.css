@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: brown;
+}
+.main-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+}
+h1 {
+  font-weight: 700;
+  padding: 10px;
+}
+button {
+  padding: 7px;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  border-color: brown;
+  cursor: pointer;
+}
+button:hover {
+  padding: 8px;
+}
